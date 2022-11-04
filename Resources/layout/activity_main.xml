@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    >
+
+
+
+    <ImageButton
+       
+        android:layout_width="197.3dp"
+        android:layout_height="169.9dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imgbtn2"
+        android:layout_marginLeft="210dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="description" 
+        android:background="@drawable/salad"
+        
+        />
+
+
+    <ImageButton
+        android:src="@drawable/unnamed"
+        android:layout_width="188.2dp"
+        android:layout_height="171.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imgbtn1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="description" 
+        
+       
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        android:text="@string/thanks"
+        
+        android:layout_marginTop="300dp"
+        
+        android:textSize="30dp"
+        android:textColor="?android:attr/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+      
+      
+        
+        />
+        
+        
+        
+        
+        
+       
+
+
+   
+
+
+
+</RelativeLayout>

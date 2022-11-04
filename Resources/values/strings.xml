@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">"All in one"</string>
+	<string name="cal">calculate</string>
+	<string name="tusbax">tusbax</string>
+    <string name="action_settings">Settings</string>
+	<string name="btn">Button</string>
+	<string name="thanks">thank you for evrey thing come after service</string>
+	
+	<string-array name="drop_down">
+<item>sub</item>
+<item>add</item>
+<item>mul</item>		
+<item>div</item>	
+<item>model</item>		
+	</string-array>
+</resources>

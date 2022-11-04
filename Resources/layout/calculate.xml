@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcal"
+    
+    >
+
+
+
+    
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="318.9dp"
+        android:layout_height="57.1dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/num1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="30dp"
+        android:shadowColor="#FFD372"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#FFD372" 
+        android:background="@android:color/white"
+        android:padding="9dp"
+        android:hint="Enter number one"
+        android:textSize="25dp"
+        
+        />
+
+
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="318.9dp"
+        android:layout_height="57.1dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/num2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+       android:shadowColor="#FFD372"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#FFD372" 
+        android:background="@android:color/white"
+       android:padding="9dp"
+        android:hint="Enter number two"
+        android:textSize="25dp"
+        android:layout_marginRight="30dp"
+        />
+   
+
+    <Spinner
+         android:layout_width="318.9dp"
+        android:layout_height="57.1dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="40dp"
+        android:padding="19dp"
+        android:id="@+id/spn"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:entries="@array/drop_down"
+        
+        
+       
+        />
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="53.7dp"
+        android:text="@string/cal"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="129dip"
+        android:layout_marginTop="340dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/btncal"
+        
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="400dp"
+        android:text="Result"
+        android:background="@android:color/black"
+        android:paddingLeft="40dp"
+        android:id="@+id/txtresult"
+        android:layout_marginBottom="0.0dp" 
+        
+
+   />
+
+
+
+
+
+
+
+</RelativeLayout>
